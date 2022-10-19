@@ -2,8 +2,9 @@ import React from "react";
 
 import { createGlobalStyle } from "styled-components";
 import { BreakpointSize, breakAt } from "./Breakpoints";
+import { Helmet } from "react-helmet";
 
-const colorYellow = '#ffc107';
+const colorYellow = "#ffc107";
 
 const GlobalStyle = createGlobalStyle`
     
@@ -82,15 +83,15 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const GlobalStyleComposed = () => (
-    <>
-      <GlobalStyle />
-      <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </Helmet>
-    </>
-  );
+  <>
+    <GlobalStyle />
+    <Helmet>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    </Helmet>
+  </>
+);
 
-export default GlobalStyle;
+export default GlobalStyleComposed;
