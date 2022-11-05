@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
         letter-spacing: 2px;
 
         strong {
-            color: ${colorYellow};
+            color: ${props => props.theme.colors.primary.main};
         }
     }
 
