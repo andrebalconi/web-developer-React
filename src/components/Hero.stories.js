@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import OfficeImage from "../stories/assets/office.jpg";
 import PCImage from "../stories/assets/pc.jpg";
 import Heading from "./Heading";
+import Button from "./Button"
 
 export default {
   title: "Components/Hero",
@@ -24,6 +25,7 @@ export const usage = () => (
       <li>React Components</li>
       <li>Welcome my Page!</li>
     </ul>
+    <Button color="primary" variant="outlined">Navigate</Button>
   </Hero>
 );
 
@@ -31,5 +33,6 @@ export const withList = () => (
   <Hero image={PCImage}>
     <h1>New Test Component</h1>
     <div>New testes Components</div>
+    <Button>Navigate</Button>
   </Hero>
 );
