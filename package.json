@@ -47,7 +47,8 @@
       "src/**/*.js",
       "!src/**/*.stories.js",
       "!src/serviceWorker.js",
-      "!src/index.js"
+      "!src/index.js",
+      "!src/models/builders/products.js"
     ]
   },
   "browserslist": {

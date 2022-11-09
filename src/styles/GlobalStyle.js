@@ -4,7 +4,6 @@ import { createGlobalStyle } from "styled-components";
 import { BreakpointSize, breakAt } from "./Breakpoints";
 import { Helmet } from "react-helmet";
 
-const colorYellow = "#ffc107";
 
 const GlobalStyle = createGlobalStyle`
     
