@@ -1,7 +1,7 @@
 import React from "react";
 //import PropTypes from "prop-types";
 import { FaSpotify, FaMicrosoft, FaGithub, FaYoutube } from "react-icons/fa";
-//import { Link } from "react-router-dom";
+//wimport { Link } from "react-router-dom";
 
 import Hero from "components/molecules/Hero";
 import Heading from "components/atoms/Heading";
@@ -9,14 +9,15 @@ import Button from "components/atoms/Button";
 import Grid from "components/atoms/Grid";
 import Feature from "components/atoms/Feature";
 import Section from "components/molecules/Section";
-//import Footer from "components/organisms/Footer";
+//import About from "./About";
+import Footer from "components/organisms/Footer";
 //import ProductGrid from "components/organisms/ProductGrid";
 //import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 import HeroImage from "assets/pc.jpg";
 //import ProductType from "models/types/ProductType";
 
-//import AboutVideo from "assets/programming.gif";
+import AboutVideo from "assets/programming.gif";
 
 const Home = () => (
   <>
@@ -71,6 +72,38 @@ const Home = () => (
         </Feature>
       </Grid>
     </Section>
+    <Section inverse>
+      <Heading>
+        <h2>News</h2>
+      </Heading>
+    </Section>
+    <Section>
+    <Grid md={2}>
+        <div>
+          <Heading>
+            <h2>Andre Balconi</h2>
+          </Heading>
+          <p>
+          I am a programmer and in the last 16 years my career has been developed mainly in the financial companies, 
+          first in the banking area and in the last 6 years in the private pension area.
+          </p>
+          <div>
+            <Button color="primary">
+              More!
+            </Button>
+          </div>
+        </div>
+        <div>
+          <img src={AboutVideo} width="100%" autoPlay playsInline loop muted />
+        </div>
+      </Grid>
+    </Section>
+    <Section inverse>
+      <Heading>
+        <h2>Continuos Learning</h2>
+      </Heading>
+    </Section>
+    <Footer></Footer>
   </>
 );
 
