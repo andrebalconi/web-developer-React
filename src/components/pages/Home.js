@@ -11,13 +11,23 @@ import Feature from "components/atoms/Feature";
 import Section from "components/molecules/Section";
 //import About from "./About";
 import Footer from "components/organisms/Footer";
-//import ProductGrid from "components/organisms/ProductGrid";
+import ProductGrid from "components/organisms/ProductGrid";
 //import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 import HeroImage from "assets/pc.jpg";
 //import ProductType from "models/types/ProductType";
 
 import AboutVideo from "assets/programming.gif";
+import News from "assets/news.jpg";
+
+const products = [
+  { id: 0, title: "News 0", summary: "News 0", image: News },
+  { id: 1, title: "News 1", summary: "News 1", image: News },
+  { id: 2, title: "News 2", summary: "News 2", image: News },
+  { id: 3, title: "News 3", summary: "News 3", image: News },
+  { id: 4, title: "News 4", summary: "News 4", image: News },
+  { id: 5, title: "News 5", summary: "News 5", image: News },
+];
 
 const Home = () => (
   <>
@@ -75,22 +85,22 @@ const Home = () => (
     <Section inverse>
       <Heading>
         <h2>News</h2>
+        <ProductGrid products={products}></ProductGrid>
       </Heading>
     </Section>
     <Section>
-    <Grid md={2}>
+      <Grid md={2}>
         <div>
           <Heading>
             <h2>Andre Balconi</h2>
           </Heading>
           <p>
-          I am a programmer and in the last 16 years my career has been developed mainly in the financial companies, 
-          first in the banking area and in the last 6 years in the private pension area.
+            I am a programmer and in the last 16 years my career has been
+            developed mainly in the financial companies, first in the banking
+            area and in the last 6 years in the private pension area.
           </p>
           <div>
-            <Button color="primary">
-              More!
-            </Button>
+            <Button color="primary">More!</Button>
           </div>
         </div>
         <div>
