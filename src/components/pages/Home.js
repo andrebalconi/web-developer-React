@@ -12,7 +12,7 @@ import Section from "components/molecules/Section";
 //import About from "./About";
 import Footer from "components/organisms/Footer";
 import ProductGrid from "components/organisms/ProductGrid";
-//import Accordion, { AccordionGroup } from "components/atoms/Accordion";
+import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 import HeroImage from "assets/pc.jpg";
 //import ProductType from "models/types/ProductType";
@@ -110,8 +110,34 @@ const Home = () => (
     </Section>
     <Section inverse>
       <Heading>
-        <h2>Continuos Learning</h2>
+        <h2>Stop and Meditate</h2>
       </Heading>
+      <AccordionGroup>
+        <Accordion title="Read!">
+          Give me, Lord, keenness to understand, ability to retain, method and
+          faculty to learn, subtlety to interpret, grace and abundance to speak,
+          right to start, direction to progress and perfection to finish ...
+          <br />
+          <i>Tomás de Aquino</i>
+        </Accordion>
+        <Accordion title="Lis!">
+          Donne-moi, Seigneur, le sens de la compréhension, la capacité de
+          retenir, la méthode et la faculté d'apprendre, la subtilité à
+          interpréter, la grâce et l'abondance pour parler, le droit de
+          commencer, la direction du progrès et la perfection pour compléter ...
+          <br />
+          <i>Tomás de Aquino</i>
+        </Accordion>
+        <Accordion title="Lesen!">
+          Gib mir, Herr, die Bereitschaft zu verstehen, die Fähigkeit zu
+          behalten, die Methode und die Fähigkeit zu lernen, die Subtilität zu
+          interpretieren, die Gnade und die Fülle zu sprechen, das Recht zu
+          beginnen, die Richtung zum Fortschritt und die Perfektion zu
+          vervollständigen ...
+          <br />
+          <i>Tomás de Aquino</i>
+        </Accordion>
+      </AccordionGroup>
     </Section>
     <Footer></Footer>
   </>
