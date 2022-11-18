@@ -1,6 +1,6 @@
 import React from "react";
 //import PropTypes from "prop-types";
-import { FaSpotify, FaMicrosoft, FaGithub, FaYoutube } from "react-icons/fa";
+import { FaSpotify, FaMicrosoft, FaGithub, FaYoutube, FaAngleDoubleUp } from "react-icons/fa";
 //wimport { Link } from "react-router-dom";
 
 import Hero from "components/molecules/Hero";
@@ -15,6 +15,7 @@ import ProductGrid from "components/organisms/ProductGrid";
 import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 import HeroImage from "assets/pc.jpg";
+import ReturnTop from "components/atoms/ReturnTop";
 //import ProductType from "models/types/ProductType";
 
 import AboutVideo from "assets/programming.gif";
@@ -95,9 +96,9 @@ const Home = () => (
             <h2>Andre Balconi</h2>
           </Heading>
           <p>
-            I am a programmer and in the last 16 years my career has been
-            developed mainly in the financial companies, first in the banking
-            area and in the last 6 years in the private pension area.
+          I am a programmer and in the last 16 years my career has been
+          developed mainly in the financial companies, always working in Microsoft 
+          Platform and differents JavaScript Front End like a AngularJS and ReactJS.
           </p>
           <div>
             <Button color="primary">More!</Button>
@@ -140,6 +141,7 @@ const Home = () => (
       </AccordionGroup>
     </Section>
     <Footer></Footer>
+    <ReturnTop icon={<FaAngleDoubleUp/>}></ReturnTop>
   </>
 );
 
