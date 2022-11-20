@@ -26,11 +26,15 @@ import ReturnTop from "components/atoms/ReturnTop";
 
 import AboutVideo from "assets/programming.gif";
 import News from "assets/news.jpg";
+import Net7 from "assets/NET_7.jpg";
+import Scooter from "assets/redbull_scooter.jpg";
+import Piano from "assets/Kawai_NV10.jpg";
+
 
 const products = [
-  { id: 0, title: "News 0", summary: "News 0", image: News },
-  { id: 1, title: "News 1", summary: "News 1", image: News },
-  { id: 2, title: "News 2", summary: "News 2", image: News },
+  { id: 0, title: ".NET 7", summary: ".NET 7 brings your apps increased performance and new features for C# 11/F# 7, .NET MAUI, ASP.NET Core/Blazor, Web APIs, WinForms, WPF and more.", image: Net7 },
+  { id: 1, title: "F1 Eletric Scooter", summary: "A supremely advanced eScooter developed by World Champions.", image: Scooter },
+  { id: 2, title: "Hybrid Piano", summary: "The NOVUS NV10S Hybrid digital piano is a celebration of Kawai’s 90 years of piano-making expertise that encapsulates the many acoustic and digital piano innovations achieved over these many decades.", image: Piano },
   { id: 3, title: "News 3", summary: "News 3", image: News },
   { id: 4, title: "News 4", summary: "News 4", image: News },
   { id: 5, title: "News 5", summary: "News 5", image: News },
