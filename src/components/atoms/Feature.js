@@ -57,7 +57,7 @@ const IconContainer = styled.div`
 const Feature = ({ icon, title, link, children }) => (
   <Root>
     <IconRoot>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         <IconContainer>{icon}</IconContainer>
       </a>
     </IconRoot>

@@ -1,48 +1,46 @@
 import React from "react";
-import PropTypes from  "prop-types";
-import styled from 'styled-components';
-import { FaYoutube, FaUps } from "react-icons/fa";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
 export const ButtonColors = {
-    default: "default",
-    primary: "primary",
-    danger: "danger",
-  };
+  default: "default",
+  primary: "primary",
+  danger: "danger",
+};
 
 const getMainColor = ({ theme, color }) => {
-    switch (color) {
-      case ButtonColors.primary:
-        return theme.colors.primary.main;
-      case ButtonColors.danger:
-        return theme.colors.danger.main;
-      default:
-        return "#e0e0e0";
-    }
-  };
-  
-  const getDarkColor = ({ theme, color }) => {
-    switch (color) {
-      case ButtonColors.primary:
-        return theme.colors.primary.dark;
-      case ButtonColors.danger:
-        return theme.colors.danger.dark;
-      default:
-        return "#5a6268";
-    }
-  };
-  
-  const getColorText = ({ theme, color }) => {
-    switch (color) {
-      case ButtonColors.primary:
-        return theme.colors.primary.text;
-      case ButtonColors.danger:
-        return theme.colors.danger.text;
-      default:
-        return "#212121";
-    }
-  };
-  
-  
+  switch (color) {
+    case ButtonColors.primary:
+      return theme.colors.primary.main;
+    case ButtonColors.danger:
+      return theme.colors.danger.main;
+    default:
+      return "#e0e0e0";
+  }
+};
+
+const getDarkColor = ({ theme, color }) => {
+  switch (color) {
+    case ButtonColors.primary:
+      return theme.colors.primary.dark;
+    case ButtonColors.danger:
+      return theme.colors.danger.dark;
+    default:
+      return "#5a6268";
+  }
+};
+
+const getColorText = ({ theme, color }) => {
+  switch (color) {
+    case ButtonColors.primary:
+      return theme.colors.primary.text;
+    case ButtonColors.danger:
+      return theme.colors.danger.text;
+    default:
+      return "#212121";
+  }
+};
+
 const ButtonACT = styled.button`
   font-size: 1rem;
   font-weight: 600;
@@ -70,25 +68,24 @@ const ButtonACT = styled.button`
   }
 `;
 
-function ReturnDoc ()  {
-    window.scroll({
-        top: document.body.offsetTop,
-        left: 0,
-        behavior: "smooth",
-    });
-
-};
+function ReturnDoc() {
+  window.scroll({
+    top: document.body.offsetTop,
+    left: 0,
+    behavior: "smooth",
+  });
+}
 
 const ReturnTop = ({ icon }) => (
-    <ButtonACT onClick={ReturnDoc}>{icon}</ButtonACT>
+  <ButtonACT onClick={ReturnDoc}>{icon}</ButtonACT>
 );
 
 ReturnTop.defaultProps = {
-    icon:undefined,
+  icon: undefined,
 };
 
 ReturnTop.propTypes = {
-    icon:PropTypes.node,
+  icon: PropTypes.node,
 };
 
 export default ReturnTop;

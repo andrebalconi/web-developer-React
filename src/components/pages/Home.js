@@ -1,6 +1,12 @@
 import React from "react";
 //import PropTypes from "prop-types";
-import { FaSpotify, FaMicrosoft, FaGithub, FaYoutube, FaAngleDoubleUp } from "react-icons/fa";
+import {
+  FaSpotify,
+  FaMicrosoft,
+  FaGithub,
+  FaYoutube,
+  FaAngleDoubleUp,
+} from "react-icons/fa";
 //wimport { Link } from "react-router-dom";
 
 import Hero from "components/molecules/Hero";
@@ -96,16 +102,25 @@ const Home = () => (
             <h2>Andre Balconi</h2>
           </Heading>
           <p>
-          I am a programmer and in the last 16 years my career has been
-          developed mainly in the financial companies, always working in Microsoft 
-          Platform and differents JavaScript Front End like a AngularJS and ReactJS.
+            I am a programmer and in the last 16 years my career has been
+            developed mainly in the financial companies, always working in
+            Microsoft Platform and differents JavaScript Front End like a
+            AngularJS and ReactJS.
           </p>
           <div>
             <Button color="primary">More!</Button>
           </div>
         </div>
         <div>
-          <img src={AboutVideo} width="100%" autoPlay playsInline loop muted />
+          <img
+            alt="Dev_Image"
+            src={AboutVideo}
+            width="100%"
+            autoPlay
+            playsInline
+            loop
+            muted
+          />
         </div>
       </Grid>
     </Section>
@@ -141,7 +156,7 @@ const Home = () => (
       </AccordionGroup>
     </Section>
     <Footer></Footer>
-    <ReturnTop icon={<FaAngleDoubleUp/>}></ReturnTop>
+    <ReturnTop icon={<FaAngleDoubleUp />}></ReturnTop>
   </>
 );
 
