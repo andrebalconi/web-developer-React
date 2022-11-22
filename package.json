@@ -1,6 +1,6 @@
 {
   "name": "webdeveloper-balconi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@storybook/addon-knobs": "^6.4.0",
