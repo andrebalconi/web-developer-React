@@ -9,8 +9,7 @@ jobs:
       - image: circleci/node:16.16.0-browsers
     steps:
       - checkout
-      - node/install:
-        install-yarn: true
+      - node/install-yarn
       - run: node --version
       - run: yarn --version
 
