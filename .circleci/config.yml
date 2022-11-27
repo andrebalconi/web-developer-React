@@ -4,7 +4,7 @@ orbs:
   node: circleci/node@5.0.3
 
 jobs:
-  setup:
+  install-node-example:
     doker:
       - image: circleci/node:16.16.0-browsers
     steps:
@@ -13,6 +13,6 @@ jobs:
       - run: node --version
       - run: yarn --version
 
-workflow:
+workflows:
   ci:
     - setup
