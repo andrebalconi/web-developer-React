@@ -5,4 +5,4 @@ by André Balconi
 
 <a href="https://web-developer-react.vercel.app/" rel="nofollow">Online demostration of the application!</a>
 
-<a href="https://www.chromatic.com/library?appId=637bdf51dad6be085c502489" rel="nofollow">Design System</a>
+<a href="https://www.chromatic.com/library?appId=637bdf51dad6be085c502489" rel="nofollow">Design System, Components Library</a>
