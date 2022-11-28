@@ -10,7 +10,7 @@ import Footer from "components/organisms/Footer";
 //import BreadCrumb from "components/atoms/BreadCrumb";
 
 import HeroImage from "assets/AboutMe4.jpg";
-import AboutImage from "draws/About";
+import AboutImage from "draws/Website";
 
 const ImageContainer = styled.div`
   svg {

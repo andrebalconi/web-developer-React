@@ -50,7 +50,7 @@ CardMedia.propTypes = {
 
 //#endregion
 
-//#region CardMedia
+//#region CardMediaDescription
 const StyledMediaDescription = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
   padding: 8px 16px;
