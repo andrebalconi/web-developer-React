@@ -9,7 +9,7 @@ export const buildProductList = (size) => {
     result.push({
       id: i + 1,
       image: CarPlaceholder,
-      title: "Ergonomic Steel Car",
+      title: "Additional Page",
       //title: faker.commerce.productName(),
       //summary: faker.commerce.productDescription(),
       //slang: faker.lorem.slug(),
