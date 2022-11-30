@@ -6,6 +6,8 @@ const ProductType = PropTypes.shape({
   title: PropTypes.string,
   summary: PropTypes.string,
   slang: PropTypes.string,
+  imageHero: PropTypes.string,
+  address: PropTypes.string,
 });
 
 export default ProductType;

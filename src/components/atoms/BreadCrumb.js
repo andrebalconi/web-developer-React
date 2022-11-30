@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Root = styled.div`
   padding: 16px 0;
@@ -35,7 +35,7 @@ const Item = styled.span`
 const BreadCrumb = ({ items }) => (
   <Root>
     {items.map((item) => (
-      <Item key={item.label} as={item.link} to={item.link}>
+      <Item key={item.label} as={item.link && Link} to={item.link}>
         {item.label}
       </Item>
     ))}

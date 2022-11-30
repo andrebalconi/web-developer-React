@@ -29,7 +29,7 @@ describe.each([
   test("show all the products when button is clicked", async () => {
     render(<ProductGrid products={buildProducts(size)} />);
 
-    await fireEvent.click(screen.getByText("Full list"));
+    await fireEvent.click(screen.getByText("Learn more"));
 
     expect(screen.getAllByRole("heading").length).toBe(size);
   });

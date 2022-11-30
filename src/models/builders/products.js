@@ -1,6 +1,6 @@
 //import faker from "faker";
 
-import CarPlaceholder from "stories/assets/hard-disc.jpg";
+import CarPlaceholder from "stories/assets/card-placeholder.jpg";
 
 export const buildProductList = (size) => {
   const result = [];
@@ -9,7 +9,7 @@ export const buildProductList = (size) => {
     result.push({
       id: i + 1,
       image: CarPlaceholder,
-      title: "Additional Page",
+      title: "Ergonomic Steel Car",
       //title: faker.commerce.productName(),
       //summary: faker.commerce.productDescription(),
       //slang: faker.lorem.slug(),
