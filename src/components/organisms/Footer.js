@@ -58,7 +58,7 @@ const Footer = () => (
               <IconContainer>
                 <FaPhone />
               </IconContainer>
-              +1 (587) 926-1323
+              +55(11)9299-3141
             </p>
             <p>
               <IconContainer>
