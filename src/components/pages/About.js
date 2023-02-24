@@ -40,8 +40,7 @@ const About = () => {
         <Grid md={2}>
           <div>
             <p>
-              My name is André, I'm from Brazil but currently live in Edmonton,
-              Alberta.
+              My name is André, I'm from Brazil.
             </p>
             <p>
               My experience as a developer started in 2006 in the largest
