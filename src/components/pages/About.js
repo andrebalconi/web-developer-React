@@ -11,7 +11,7 @@ import Footer from 'components/organisms/Footer'
 
 import BreadCrumb from 'components/atoms/BreadCrumb'
 
-import HeroImage from 'assets/AboutMe4.jpg'
+import HeroImage from 'assets/aboutWe.jpeg'
 import AboutImage from 'draws/Website'
 
 const ImageContainer = styled.div`

@@ -1,20 +1,20 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styled, { css } from "styled-components";
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled, { css } from 'styled-components'
 
-import Container from "components/atoms/Container";
+import Container from 'components/atoms/Container'
 
 const Root = styled.div`
   color: #fff;
-  padding: 100px 0;
+  padding: 200px 0;
 
   ${(props) => css`
-    background: url(${props.image}), rgba(0, 0, 0, 0.4);
+    background: url(${props.image}), rgba(0, 0, 0, 0.1);
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
   `}
-`;
+`
 
 const Content = styled.div`
   display: inline-block;
@@ -31,12 +31,11 @@ const Content = styled.div`
 
   li {
     &::before {
-      content: "\\2713\\0020";
-      color: ${props => props.theme.colors.primary.main};
+      content: '\\2713\\0020';
+      color: ${(props) => props.theme.colors.primary.main};
     }
   }
-`;
-
+`
 
 const Hero = ({ image, children }) => (
   <Root image={image} data-testid="hero">
@@ -44,7 +43,7 @@ const Hero = ({ image, children }) => (
       <Content>{children}</Content>
     </Container>
   </Root>
-);
+)
 
 Hero.propTypes = {
   /**
@@ -52,10 +51,10 @@ Hero.propTypes = {
    */
   image: PropTypes.string,
   children: PropTypes.node,
-};
+}
 
 Hero.defaultProps = {
-  title: "My Title",
-};
+  title: 'My Title',
+}
 
-export default Hero;
+export default Hero
