@@ -6,7 +6,7 @@ import Container from 'components/atoms/Container'
 
 const Root = styled.div`
   color: #fff;
-  padding: 200px 0;
+  padding: 300px 0;
 
   ${(props) => css`
     background: url(${props.image}), rgba(0, 0, 0, 0.1);

@@ -20,7 +20,7 @@ import Footer from "components/organisms/Footer";
 import ProductGrid from "components/organisms/ProductGrid";
 import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
-import HeroImage from "assets/homeHeroOne.jpeg";
+import HeroImage from "assets/edmonton_5.jpeg";
 import ReturnTop from "components/atoms/ReturnTop";
 import ProductType from "models/types/ProductType";
 
