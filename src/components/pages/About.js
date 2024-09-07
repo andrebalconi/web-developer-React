@@ -50,7 +50,7 @@ const About = () => {
               which is the best way to acquire more!
             </p>
             <p>
-              With over 17 years of experience, I specialize in the development
+              With over 18 years of experience, I specialize in the development
               and enhancement of cutting-edge web tools, coupled with a keen
               focus on monitoring IT projects through collaborative efforts with
               Software Factories. My expertise lies predominantly in the dynamic
@@ -71,7 +71,7 @@ const About = () => {
               encompassing the .NET Framework, ASP.NET, C#, JavaScript, and
               popular frontend frameworks like Angular and React. My version
               control mastery includes TFS and GIT, and I possess in-depth
-              knowledge of database management utilizing Microsoft S2L Server.
+              knowledge of database management utilizing Microsoft SQL Server.
             </p>
             <p>
               Adept at both independent project management and collaborative
