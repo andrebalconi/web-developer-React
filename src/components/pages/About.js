@@ -11,7 +11,7 @@ import Footer from 'components/organisms/Footer'
 
 import BreadCrumb from 'components/atoms/BreadCrumb'
 
-import HeroImage from 'assets/aboutWe.jpeg'
+import HeroImage from 'assets/IMG_3472_1.png'
 import AboutImage from 'draws/Website'
 
 const ImageContainer = styled.div`
@@ -39,54 +39,40 @@ const About = () => {
       <Section>
         <Grid md={2}>
           <div>
-            <p>My name is André, I'm from Brazil.</p>
+            <p>André Balconi</p>
             <p>
-              My experience as a developer started in 2006 in the largest
-              private bank in the country working in the automation od processes
-              in the Credit Card operation.
+              <p><strong style={{ fontWeight: 'bold' }}>Senior Software Engineer | Financial Systems | 20 Years of Experience</strong></p>
             </p>
             <p>
-              I have passion for my work and a great desire to share knowledge,
-              which is the best way to acquire more!
+              I am a Brazilian software engineer with 20 years of experience in the financial services industry, working in banking and private pension systems since 2006.
             </p>
             <p>
-              With over 18 years of experience, I specialize in the development
-              and enhancement of cutting-edge web tools, coupled with a keen
-              focus on monitoring IT projects through collaborative efforts with
-              Software Factories. My expertise lies predominantly in the dynamic
-              realm of the financial market, spanning the banking sector and,
-              more recently, the private pension domain for the past seven
-              years.
+              My career began at the largest private bank in Brazil, where I contributed to the automation of credit card operational processes. Since then, I have focused on designing, developing, and optimizing scalable, high-availability web applications in regulated financial environments.
+
             </p>
             <p>
-              Throughout my career, I have championed Object-Oriented
-              Programming (OOP) principles, consistently applying the SOLID
-              principles, and embraced agile project management methodologies
-              such as Scrum and XP. This approach has not only streamlined
-              project workflows but has also catalyzed a culture of continuous
-              improvement and adaptability.
+              I am currently working as a Software Engineer at UBS, contributing to the development and maintenance of enterprise-grade financial systems. My role involves collaborating with cross-functional teams, ensuring code quality, architectural consistency, and alignment with business and compliance requirements.
+            </p>
+            <p style={{ fontWeight: 'bold' }}>Technical Expertise</p>
+            <ul>
+              <li>NET Framework / .NET Core</li>
+              <li>ASP.NET</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>Angular & React</li>
+              <li>Microsoft SQL Server</li>
+              <li>Git & TFS</li>
+            </ul>
+            <p>
+              I consistently apply Object-Oriented Programming principles and SOLID design practices, with strong experience in Agile methodologies such as Scrum and XP. I prioritize clean architecture, maintainability, performance optimization, and long-term system sustainability.
             </p>
             <p>
-              My proficiency extends across a diverse array of technologies,
-              encompassing the .NET Framework, ASP.NET, C#, JavaScript, and
-              popular frontend frameworks like Angular and React. My version
-              control mastery includes TFS and GIT, and I possess in-depth
-              knowledge of database management utilizing Microsoft SQL Server.
-            </p>
-            <p>
-              Adept at both independent project management and collaborative
-              teamwork, I offer a versatile skill set to the table, ensuring not
-              only the seamless development of web systems but also their
-              rigorous testing and efficient maintenance. My commitment to
-              staying at the forefront of technological advancements enables me
-              to navigate the ever-evolving landscape of IT with agility and
-              innovation.
+              With a solid background in financial systems and enterprise environments, I am seeking opportunities in the European market where I can contribute with my technical expertise while continuing to grow in modern architectures and distributed systems.
             </p>
           </div>
           <div>
             <p>
-              I am looking for opportunities to advance my career and develop my
-              skills.
+
             </p>
             <center>
               <ImageContainer>

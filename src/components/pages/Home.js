@@ -20,7 +20,7 @@ import Footer from "components/organisms/Footer";
 import ProductGrid from "components/organisms/ProductGrid";
 import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
-import HeroImage from "assets/edmonton_5.jpeg";
+import HeroImage from "assets/IMG_3472_1.png";
 import ReturnTop from "components/atoms/ReturnTop";
 import ProductType from "models/types/ProductType";
 
@@ -28,31 +28,66 @@ import AboutVideo from "assets/programming.gif";
 
 const Home = ({ products }) => (
   <>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        marginBottom: 20,
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 0,
+          bottom: 0,
+          display: "flex",
+          alignItems: "center",
+          paddingLeft: 12,
+          gap: 8,
+        }}
+      >
+        <FaGithub size={16} />
+        <FaSpotify size={16} />
+        <FaMicrosoft size={16} />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3
+          style={{
+            margin: 0,
+            padding: "6px 14px",
+            background: "rgba(0,0,0,0)",
+            fontFamily: "Geneva, \"Lucida Grande\", \"Lucida Sans Unicode\", Tahoma, Verdana, sans-serif",
+            borderRadius: 4,
+          }}
+        >
+          André Balconi
+        </h3>
+      </div>
+    </div>
     <Hero image={HeroImage}>
-      <Heading>
+      <Heading style={{ position: 'relative', left: 10, top: 150 }}>
         <h1>
-          <br />
-          <strong>React JS</strong>
+          <br /><br /><br />
         </h1>
+        <ul>
+          <li>Software Engineer | Investment Banking Technology | High-Reliability Systems</li>
+          <li>Software Engineer at UBS, building scalable and resilient systems for financial environments.</li>
+        </ul>
       </Heading>
-      <ul>
-        <li>Modern Front-End</li>
-        <li>React Components</li>
-        <li>Welcome my Page!</li>
-      </ul>
-      <Button color="primary" variant="outlined">
+
+      {/* <Button color="primary" variant="outlined">
         Navigate
-      </Button>
+      </Button> */}
     </Hero>
     <Section>
-      <Grid sm={2} md={4}>
-        <Feature
-          icon={<FaSpotify />}
-          title="My styles"
-          link="https://open.spotify.com/playlist/6SoBkrXplo45UTilDxb0if?si=4ca19a4cbda64c3d"
-        >
-          <p>My playlist for you to enjoy!!!</p>
-        </Feature>
+      <Grid sm={2} md={3}>
         <Feature
           icon={<FaMicrosoft />}
           title="Microsoft Codes"
@@ -73,15 +108,14 @@ const Home = ({ products }) => (
           link="https://www.youtube.com/user/dedejazz"
         >
           <p>
-            In this channel I show a little of my passion for instrumental music
-            and more precisely for the piano!
+            What do I do in my free time besides coding?
           </p>
         </Feature>
       </Grid>
     </Section>
     <Section inverse>
       <Heading>
-        <h2>News</h2>
+        <h2>My Interests</h2>
         <ProductGrid products={products} />
       </Heading>
     </Section>
@@ -92,7 +126,7 @@ const Home = ({ products }) => (
             <h2>Andre Balconi</h2>
           </Heading>
           <p>
-            I am a programmer and in the last 16 years my career has been
+            I am a programmer and in the last 20 years my career has been
             developed mainly in the financial companies, always working in
             Microsoft Platform and differents JavaScript Front End like a
             AngularJS and ReactJS.

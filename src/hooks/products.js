@@ -1,23 +1,23 @@
 import News from "assets/news.jpg";
-import Net7 from "assets/NET_7.jpg";
+import Copilot from "assets/GithubCopilot.jpg";
 import Scooter from "assets/redbull_scooter.jpg";
-import Piano from "assets/Kawai_NV10.jpg";
-import Windows from "assets/windows.jpg"
+import Software from "assets/building_software.jpg";
+import Windows from "assets/copilot-chat.webp"
 import HeroImage from "assets/hero.jpg";
 import Koo from "assets/koo-app.jpg";
 import KooPage from "assets/koo-page.jpg";
-import PianoK from "assets/Kawai-Hero.jpg";
+import SoftwareG from "assets/building_software_G.jpg";
 
 const products = [
   {
     id: 1,
-    title: ".NET 7",
-    slang: ".NET-7",
+    title: "GitHub Copilot",
+    slang: "GitHub-Copilot",
     summary:
-      ".NET 7 brings your apps increased performance and new features for C# 11/F# 7, .NET MAUI, ASP.NET Core/Blazor, Web APIs, WinForms, WPF and more.",
-    image: Net7,
+      "GitHub Copilot is revolutionizing how we code — here’s a practical walkthrough I found especially useful!",
+    image: Copilot,
     imageHero: Windows,
-    address: "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/"
+    address: "https://youtu.be/DeO7xLXORpY"
   },
   {
     id: 2,
@@ -30,13 +30,13 @@ const products = [
   },
   {
     id: 3,
-    title: "Hybrid Piano",
-    slang: "Hybrid-Piano",
+    title: "Refactoring Without Breaking Production",
+    slang: "Refactoring Without Breaking Production",
     summary:
-      "The NOVUS NV10S Hybrid digital piano is a celebration of Kawai’s 90 years of piano-making expertise that encapsulates the many acoustic and digital piano innovations achieved over these many decades.",
-    image: Piano,
-    imageHero: PianoK,
-    address: "https://kawaius.com/product/novus-nv10s/",
+      "Martin Fowler – Refactoring & Evolutionary Design.",
+    image: Software,
+    imageHero: SoftwareG,
+    address: "https://martinfowler.com",
   },
   {
     id: 4,
