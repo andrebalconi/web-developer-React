@@ -12,7 +12,7 @@ import Grid from "components/atoms/Grid";
 import BreadCrumb from "components/atoms/BreadCrumb";
 import ProductType from "models/types/ProductType";
 
-const PinnedItem = styled.li`
+{/*const PinnedItem = styled.li`
   display: inline-block;
   border: 1px solid ${(props) => props.theme.colors.border};
   border-radius: 4px;
@@ -28,7 +28,7 @@ const PinnedItem = styled.li`
 const Pages = styled.img`
   width: 1124px;
   height: 739px;
-`;
+`;*/}
 
 const ProductDetail = ({ product }) => {
   useScrolltoTop();
