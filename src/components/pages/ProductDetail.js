@@ -10,9 +10,7 @@ import Footer from "components/organisms/Footer";
 import Grid from "components/atoms/Grid";
 
 import BreadCrumb from "components/atoms/BreadCrumb";
-
 import ProductType from "models/types/ProductType";
-
 
 const PinnedItem = styled.li`
   display: inline-block;
@@ -55,12 +53,12 @@ const ProductDetail = ({ product }) => {
             <Heading>
               <h6>{product.summary}</h6>
             </Heading>
-            <a href={product.address} target="_blank">
+            <a href={product.address} target="_blank" rel="noreferrer">
               <p>Check!</p>
             </a>
           </div>
           <div>
-            <img src={product.imagepage} width="100%" />
+            <img src={product.imagepage} width="100%" alt="" />
           </div>
         </Grid>
       </Section>
