@@ -6,19 +6,13 @@ import { useScrolltoTop } from "hooks/scroll";
 import Hero from "components/molecules/Hero";
 import Heading from "components/atoms/Heading";
 import Section from "components/molecules/Section";
-import Button, { ButtonLink } from "components/atoms/Button";
 import Footer from "components/organisms/Footer";
 import Grid from "components/atoms/Grid";
 
-import { Link } from "react-router-dom";
 import BreadCrumb from "components/atoms/BreadCrumb";
 
 import ProductType from "models/types/ProductType";
 
-const PinnedList = styled.ul`
-  list-style: none;
-  padding-left: 0;
-`;
 
 const PinnedItem = styled.li`
   display: inline-block;
