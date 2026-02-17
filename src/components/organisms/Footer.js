@@ -3,9 +3,7 @@ import styled from "styled-components";
 import {
   FaPhone,
   FaMailBulk,
-  FaFacebookF,
   FaLinkedinIn,
-  FaTwitter,
 } from "react-icons/fa";
 
 import Container from "components/atoms/Container";
@@ -55,59 +53,38 @@ const Footer = () => (
             </p>
           </Heading>
         </div>
-        <Grid md={2}>
-          <div>
-            <Heading>
-              <h6>Contacts</h6>
-              <p>
+        <div>
+          <Heading>
+            <h6>Contacts</h6>
+            <p>
+              <IconContainer>
+                <FaPhone />
+              </IconContainer>
+              +55(11)99299-3141
+            </p>
+            <p>
+              <IconContainer>
+                <FaMailBulk />
+              </IconContainer>
+              <FooterLink href="mailto:andrebalconi@icloud.com" title="andrebalconi@icloud.com">
+                Send me a email
+              </FooterLink>
+            </p>
+          </Heading>
+          <Heading>
+            <p>
+              <FooterLink
+                target="_blank"
+                href="https://br.linkedin.com/in/andr%C3%A9-balconi-738a9a111"
+              >
                 <IconContainer>
-                  <FaPhone />
+                  <FaLinkedinIn />
                 </IconContainer>
-                +55(11)9299-3141
-              </p>
-              <p>
-                <IconContainer>
-                  <FaMailBulk />
-                </IconContainer>
-                <FooterLink href="mailto:andrebalconi@icloud.com">
-                  Send me a email
-                </FooterLink>
-              </p>
-            </Heading>
-          </div>
-          <div>
-            <Heading>
-              <h6>Social Media</h6>
-              <p>
-                <FooterLink target="_blank">
-                  <IconContainer>
-                    <FaFacebookF />
-                  </IconContainer>
-                  Facebook
-                </FooterLink>
-              </p>
-              <p>
-                <FooterLink
-                  target="_blank"
-                  href="https://br.linkedin.com/in/andr%C3%A9-balconi-738a9a111"
-                >
-                  <IconContainer>
-                    <FaLinkedinIn />
-                  </IconContainer>
-                  LinkedIn
-                </FooterLink>
-              </p>
-              <p>
-                <FooterLink target="_blank">
-                  <IconContainer>
-                    <FaTwitter />
-                  </IconContainer>
-                  Twitter
-                </FooterLink>
-              </p>
-            </Heading>
-          </div>
-        </Grid>
+                LinkedIn
+              </FooterLink>
+            </p>
+          </Heading>
+        </div>
       </Grid>
     </Container>
   </Root>

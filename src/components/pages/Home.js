@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
-  FaSpotify,
-  FaMicrosoft,
+  FaReact,
   FaGithub,
   FaYoutube,
   FaAngleDoubleUp,
+  FaAngular,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -47,8 +47,8 @@ const Home = ({ products }) => (
         }}
       >
         <FaGithub size={16} />
-        <FaSpotify size={16} />
-        <FaMicrosoft size={16} />
+        <FaReact size={16} />
+        <FaAngular size={16} />
       </div>
       <div
         style={{
@@ -88,11 +88,11 @@ const Home = ({ products }) => (
     <Section>
       <Grid sm={2} md={3}>
         <Feature
-          icon={<FaMicrosoft />}
-          title="Microsoft Codes"
-          link="http://mywebtools.azurewebsites.net/"
+          icon={<FaAngular />}
+          title="e Commerce"
+          link="https://ecommerce-ab.fly.dev/"
         >
-          <p>Coming soon C# codes!</p>
+          <p>Technical demonstration project simulating a real-world e-commerce environment.</p>
         </Feature>
         <Feature
           icon={<FaGithub />}
